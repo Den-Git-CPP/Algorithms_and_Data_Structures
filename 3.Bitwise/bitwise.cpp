@@ -18,5 +18,15 @@ int main()
     cout << (1 << 6) << endl;
     cout << (1 << 7) << endl;
 
-    
+        int n = 17; // 0...00010001
+    int i = 2;
+    n = n | (1 << i);     cout << n << endl;
+    n = n | (1 << i);     cout << n << endl;
+    n = n & ~(1 << i);    cout << n << endl;
+    n = n ^ (1 << i);     cout << n << endl;
+    n = n ^ (1 << i);     cout << n << endl;
+    n = n ^ (1 << i);     cout << n << endl;
+    n = n ^ (1 << i);     cout << n << endl;
+    n = n ^ (1 << i);     cout << n << endl;
+
 }
